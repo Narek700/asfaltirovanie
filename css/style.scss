@@ -75,8 +75,9 @@ section:not(.section-1) {
   }
 }
 
-h2{
+h2 {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 //--- Header
@@ -805,10 +806,41 @@ footer {
   background-attachment: fixed;
 }
 
-.samosval{
+.samosval {
   background-image: url(../images/samosvalsad.png);
   background-position: right -290px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.asf_kroshka_bg{
+  background-image: url(../images/section_3/img_s3.jpg);
+  background-repeat: no-repeat;
+  background-position: right -100px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dost_peska{
+  background-image: url(../images/dost_peska_bg.png);
+  background-repeat: no-repeat;
+  background-position: right -350px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dost_shebnya{
+  background-image: url(../images/dost.shebnya_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right -300px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.chernozem{
+  background-image: url(../images/chernozem_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1049,6 +1081,16 @@ footer {
   .jcb_bg,
   .bulduzer_bg {
     background-position: center;
+  }
+
+  .asf_kroshka {
+    text-align: center;
+    img {
+      max-width: 100% !important;
+    }
+  }
+  .dost_shebnya{
+    background-position: -400px -45px;
   }
 }
 

@@ -51,7 +51,8 @@ section:not(.section-1) {
     transform: translateY(-5px); }
 
 h2 {
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase; }
 
 header {
   background-color: #44414178;
@@ -552,6 +553,34 @@ footer {
   background-size: cover;
   background-attachment: fixed; }
 
+.asf_kroshka_bg {
+  background-image: url(../images/section_3/img_s3.jpg);
+  background-repeat: no-repeat;
+  background-position: right -100px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.dost_peska {
+  background-image: url(../images/dost_peska_bg.png);
+  background-repeat: no-repeat;
+  background-position: right -350px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.dost_shebnya {
+  background-image: url(../images/dost.shebnya_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right -300px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.chernozem {
+  background-image: url(../images/chernozem_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1300px; }
@@ -691,7 +720,15 @@ footer {
   .asfaltoukladchik,
   .jcb_bg,
   .bulduzer_bg {
-    background-position: center; } }
+    background-position: center; }
+
+  .asf_kroshka {
+    text-align: center; }
+    .asf_kroshka img {
+      max-width: 100% !important; }
+
+  .dost_shebnya {
+    background-position: -400px -45px; } }
 @media only screen and (max-width: 575px) {
   footer address a.phoneNumber {
     margin-bottom: 10px; }
