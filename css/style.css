@@ -124,7 +124,7 @@ header {
       transform: translateX(0); }
   header .dropdown {
     position: relative; }
-  header .dropdownMenu {
+  header .dropdown-menu {
     padding: 10px 0;
     position: absolute;
     background-color: white;
@@ -132,9 +132,9 @@ header {
     z-index: 9999;
     display: none;
     transition: .3s; }
-    header .dropdownMenu a {
+    header .dropdown-menu a {
       overflow-x: hidden; }
-    header .dropdownMenu.active {
+    header .dropdown-menu.active {
       display: block; }
   header .dropdown-item {
     transition: .3s; }
@@ -621,7 +621,7 @@ footer {
     transform: translateX(-100%); }
     header #navbarText a {
       color: #444141; }
-    header #navbarText .dropdownMenu {
+    header #navbarText .dropdown-menu {
       position: static;
       padding: 10px 15px;
       text-align: center; }
